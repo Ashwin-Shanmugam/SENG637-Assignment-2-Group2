@@ -7,7 +7,7 @@
 | Student Names: | Eid    |
 |    Noshin            |  30112985   |
 |          Ashwin      |   30300738  |
-|      Jasneet          |     |
+|      Jasneet          |  30044332   |
 |Salehin                | 30270206    |
 
 
@@ -127,10 +127,7 @@ test_getLength_ExtremeValues — EC1/EC5 extreme span, passed
 
 # 4 Defect Report
 
-## 4.1 DataUtilities
-We identified 7 failing test case for DataUtilities.
-
-## 4.2 Range
+We identified 7 failing tests for DataUtilities and 9 failing tests for Range.
 
 # 5 How the team work/effort was divided and managed
 
@@ -144,7 +141,7 @@ Boundary interpretation: intersects endpoint-touching behavior diverged from our
 Coordination: merging tests from two pairs required clear naming and one-case-per-@Test discipline; cross-review caught overlapping scenarios and missing partitions.
 Takeaway: design from specs, not observed behavior; keep each test single-scenario for easier debugging and traceability.
 
-# 6 Comments/feedback on the lab itself
+# 7 Comments/feedback on the lab itself
 
 Clear scope and good practice with JUnit + mocks; pairing ECT/BVA with Javadoc specs was useful.
 Setup friction: jMock/JAR wiring in Eclipse took time; a Gradle/Maven starter could reduce config issues.
