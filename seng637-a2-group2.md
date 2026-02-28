@@ -125,12 +125,15 @@ test_getLength_LowerBoundZero — EC1 zero-to-positive boundary, passed
 test_getLength_UpperBoundZero — EC1 negative-to-zero boundary, passed
 test_getLength_ExtremeValues — EC1/EC5 extreme span, passed
 
+# 4 Defect Report
 
-# 4 How the team work/effort was divided and managed
+We identified 7 failing test case for DataUtilities.
+
+# 5 How the team work/effort was divided and managed
 
 We split into pairs: Ashwin and Noshin owned the DataUtilities test cases; Salehin and Jasneet owned the Range test cases. Each pair designed and coded their assigned methods, then we cross‑reviewed and fixed issues across both suites. Finally, all four of us worked together to compile and edit the report.
 
-# 5 Difficulties encountered, challenges overcome, and lessons learned
+# 6 Difficulties encountered, challenges overcome, and lessons learned
 
 Mocking quirks: jMock needed every call stubbed; missing expectations caused failures. We learned to use allowing for incidental calls and to assert counts only where needed.
 Nulls in array-creation: createNumberArray* returned null elements in the provided JFreeChart build, causing NPEs. We guarded assertions and recorded these as SUT defects rather than changing expectations.
