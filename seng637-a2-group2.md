@@ -5,7 +5,7 @@
 | Group \#:      |   1  |
 | -------------- | --- |
 | Student Names: | Eid    |
-|    Noshin            |     |
+|    Noshin            |  30112985   |
 |          Ashwin      |   30300738  |
 |      Jasneet          |     |
 |Salehin                | 30270206    |
