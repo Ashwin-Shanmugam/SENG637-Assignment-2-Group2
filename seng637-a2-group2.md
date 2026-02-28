@@ -35,7 +35,7 @@ We used a black‑box approach with Equivalence Class Testing (ECT) and Boundary
 
 We organized Range tests by method: intersects (5 cases covering disjoint below/above, boundary touch, fully inside, range-contained) and constrain (5 cases covering below, on bounds, inside, above). Teammate-provided suites cover getLowerBound, getUpperBound, and getLength across negative/zero/positive/equal/extreme partitions per the strategy.
 
-## Class: DataUtilitiesTest2
+## Class: DataUtilitiesTest
 
 ### calculateColumnTotal(Values2D, int)
 
@@ -127,7 +127,10 @@ test_getLength_ExtremeValues — EC1/EC5 extreme span, passed
 
 # 4 Defect Report
 
+## 4.1 DataUtilities
 We identified 7 failing test case for DataUtilities.
+
+## 4.2 Range
 
 # 5 How the team work/effort was divided and managed
 
