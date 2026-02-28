@@ -5,7 +5,7 @@
 | Group \#:      |   1  |
 | -------------- | --- |
 | Student Names: | Eid    |
-|    Noshin            |     |
+|    Noshin            |  30112985   |
 |          Ashwin      |   30300738  |
 |      Jasneet          |     |
 |Salehin                | 30270206    |
@@ -15,7 +15,7 @@
 
 We designed and ran black‑box JUnit tests (ECT + BVA) for five Range and five DataUtilities methods in JFreeChart v1.0 using Java 8, JUnit 4.11, and JMock to validate behavior against the Javadoc specs.
 
-The System Under Test (SUT) is the JFreeChart v1.0 implementation provided by the instructor. The test oracle is the official Javadoc specification, which defines the expected functional behavior for each method. Observed runtime behavior was not used to determine correctness — any deviation from Javadoc was recorded as a defect.
+The System Under Test (SUT) is the JFreeChart v1.0 implementation provided by the instructor. The test oracle is the official Javadoc specification, which defines the expected functional behavior for each method. Observed runtime behavior was not used to determine correctness - any deviation from Javadoc was recorded as a defect.
 
 Purpose: We applied black‑box unit testing (ECT + BVA) to JFreeChart’s data layer as Assignment 2 for SENG 637.
 Scope: 5 methods in org.jfree.data.DataUtilities (all required) and 5 chosen methods in org.jfree.data.Range.
