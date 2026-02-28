@@ -4,7 +4,7 @@
 
 | Group \#:      |   1  |
 | -------------- | --- |
-| Student Names: | Eid    |
+| Student Names: | Ucid    |
 |    Noshin            |  30112985   |
 |          Ashwin      |   30300738  |
 |      Jasneet          |  30044332   |
